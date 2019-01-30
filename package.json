@@ -42,9 +42,14 @@
     "ember-source": "~3.7.0",
     "eslint-plugin-ember": "^5.2.0",
     "loader.js": "^4.7.0",
-    "qunit-dom": "^0.8.0"
+    "qunit-dom": "^0.8.0",
+    "sass": "^1.16.1"
   },
   "engines": {
     "node": "6.* || 8.* || >= 10.*"
+  },
+  "dependencies": {
+    "ember-cli-sass": "https://github.com/chriskrycho/ember-cli-sass#parent-options-204",
+    "ember-freestyle": "https://github.com/chriskrycho/ember-freestyle#update-ember-cli-sass"
   }
 }
